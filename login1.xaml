@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1170,2102</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1170,2007</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>login_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="44">
@@ -71,7 +71,7 @@
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="log in to the JD Edwerds website using the windows credencaial.&#xA;&#xA;precondetion: &#xA;URL,username ,and passord of the JD Edwards is provided&#xA;&#xA;postcondetion:&#xA;log in to JD Edward account seccsefully &#xA;" DisplayName="login" sap:VirtualizedContainerService.HintSize="1180,2037" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="log in to the JD Edwerds website using the windows credencaial.&#xA;&#xA;precondetion: &#xA;URL,username ,and passord of the JD Edwards is provided&#xA;&#xA;postcondetion:&#xA;log in to JD Edward account seccsefully &#xA;" DisplayName="login" sap:VirtualizedContainerService.HintSize="1180,1942" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Browser" Name="BR" />
     </Sequence.Variables>
@@ -81,7 +81,6 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="1138,55" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Login JDE using EI" />
     <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="IE" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="1138,1718" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" UiBrowser="[BR]" Url="[in_JD_Edwards_URL]">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
